@@ -1,14 +1,98 @@
+/*
+GENERAL
+*/
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+html{
+    font-size: 62.5%;
+}
 body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin:0.5rem;
+    font-family: 'Nutio', sans-serif;
+    font-size:2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-align: center;
+    font-weight: 300;
+}
+/*
+style for the
+Header
+component
+*/
+header {
+  background: #222;
+  color: orange;
+  text-align: center;
+  padding: 1rem 0;
+  margin: 0 0 1rem 0;
+}
+/*
+style for the 
+Main
+component
+*/
+main {
+background: rgb(240, 240, 240);
+padding:1rem;
+margin-bottom: 1rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* style for the 
+Student 
+component
+*/
+img {
+  width: 25%;
+  border-radius: 1rem;
 }
+.student {
+  border:0.1rem solid orange;
+  width:50vw;
+  text-align: center;
+  margin: 1rem auto;
+  padding:1.5rem 0;
+}
+.student-list {
+  border: 0.1rem solid rgb(240, 240, 240);
+  padding:10px;
+}
+.student-list-title {
+ font-size: 2rem;
+}
+details, summary {
+    outline: none;
+}
+details ul{
+    background:rgb(240, 240, 240);
+    width:80%;
+    margin: auto;
+    border-radius: 2px;
+    padding:1rem 0;
+    
+
+    
+}
+details ul li {
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+}
+/*
+style for the 
+Footer
+component
+*/
+footer {
+  background: #222;
+  color: orange;
+  text-align: center;
+  padding: 20px 0;
+  margin-top:2rem;
+}
+
+
