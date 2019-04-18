@@ -40,6 +40,15 @@ background: rgb(240, 240, 240);
 padding:1rem;
 margin-bottom: 1rem;
 }
+main ul {
+  width: 40%;
+  margin: 1.25rem auto;
+
+}
+main ul li{
+  text-align: left;
+  font-weight: 400;
+}
 
 /* style for the 
 Student 
@@ -76,7 +85,7 @@ details ul{
 
     
 }
-details ul li {
+ul li {
     list-style: none;
     font-size: 1.5rem;
     font-weight: 400;
